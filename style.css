@@ -98,11 +98,11 @@ button{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .sub-text {
-    margin-bottom: 18px;
+    margin-bottom: 8px;
 }
 
 .content {
@@ -120,8 +120,6 @@ button{
 .actual-qoute {
     font-size: 32px;
     color: #1f2937;
-    
-    
 }
 
 .author {
