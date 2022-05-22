@@ -3,41 +3,43 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    
+    height: 100vh;
+    font-family: `Roboto`;
 }
 
 .header {
     display: flex;
-    flex-direction: column;
-    background-color: #1f2937;
-    justify-content: center;
+    background-color: hsl(215, 28%, 17%);
+    justify-content: space-between;
     align-items: center;
+    padding: 0 150px;
+    padding-top: 16px;
 }
 
 .media-object {
     display: flex;
-    
+    background-color: #1f2937;
+    padding: 64px 150px;
+    gap: 48px;
 }
 
 .media-object img {
-    width: 400px;
-    height: auto;
+    width: 700px;
+    height: 250px;
     
 }
 
 .card img {
-    width: 200px;
-    height: 200px;
-}
-
-.nav-and-logo {
-    display: flex;
-    justify-content: space-between;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 8px;
 }
 
 .nav-container {
     display: flex;
     justify-content: center;
+    gap: 32px;
 }
 
 .body {
@@ -46,23 +48,30 @@ body {
 
 .card-container {
     display: flex;
-    gap: 50px;
+    gap: 38px;
 }
 
 .card {
+    width: 150px;
     display: flex;
     flex-direction: column;
-    width: 250px;
+}
+
+.card div {
+    font-size: 18px;
 }
 
 .information {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 48px;
+    padding-bottom: 100px;
 }
 
 .logo {
     font-size: 24px;
+    color: #f9faf8;
 }
 
 .nav-item, .sub-text {
@@ -70,18 +79,87 @@ body {
     color: #e5e7eb;
 }
 
-button, .call {
+button{
     background-color: #3882f6;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
 .title {
     font-size: 32px;
     font-weight: bolder;
     color: #1f2937;
+    margin-bottom: 48px;
 }
 
 .awesome {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 16px;
+}
+
+.sub-text {
+    margin-bottom: 18px;
+}
+
+.content {
+    width: 400px;
+    height: 300px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 300px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.actual-qoute {
+    font-size: 32px;
+    color: #1f2937;
+    
+    
+}
+
+.author {
+   font-size: 24px;
+   font-weight: bold;
+}
+.sign-up {
+    background-color: #3882f6;
+    display: flex;
+    gap: 150px;
+    margin: 100px 150px;
+    padding: 48px 100px;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 32px;
+}
+
+.call {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sign-up button {
+    border-color: #ffffff;
+    border-style: solid;
+    height: 36px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+.click {
+    color: #e5e7eb;
+    font-size: 18px;
 }
